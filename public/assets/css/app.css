@@ -8,8 +8,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+body{
+    background-color: #fafafa;
 }
 html *{
     font-family: 'Nunito';
     font-weight: 600;
+}
+section#home{
+    background-image: url('../images/image2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fs-tagline{
+    font-size: 4rem;
+    font-weight: 800;
 }

@@ -1,7 +1,15 @@
 <x-web.layouts>
     <x-slot name="title">Home</x-slot>
     <x-slot name="html">
-        <h4>Ilham Maulana</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quae necessitatibus quia iusto non repellendus provident, molestiae tempore earum deserunt!</p>
+        <section class="container-xl vh-100" id="home">
+            <div class="row justify-content-end vh-100">
+                <div class="col-md-6 my-auto">
+                    <h1 class="fs-tagline">Take care of your body and it will take care of you</h1>
+                    <p>Dokter Ilham Maulana menyembuhkan 100 penyakit . Amin!</p>
+                    <button class="btn btn-warning text-white me-3">Do health check right now</button>
+                    <button class="btn btn-outline-warning">Learn More</button>
+                </div>
+            </div>
+        </section>
     </x-slot>
 </x-web.layouts>
