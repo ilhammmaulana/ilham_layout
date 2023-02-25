@@ -1,7 +1,7 @@
-<footer class="bg-light container pt-5">
+<footer class="container-sm pt-5">
     <div class="row justify-content-center">
         <div class="col-md-4">
-            <h5>Helix</h5>
+            <h2 class="fw-bold">Helix</h2>
             <p class="text-muted">
                 Untuk memenuhi permintaan yang meningkat akan layanan kesehatan yang berkualitas, Helix hadir lebih dekat dengan anda
             </p>

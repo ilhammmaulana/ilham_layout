@@ -8,7 +8,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid black; */
 }
 body{
     background-color: #fafafa;
@@ -16,6 +15,10 @@ body{
 html *{
     font-family: 'Nunito';
     font-weight: 600;
+}
+
+section#card-sec{
+    padding: 12rem 0 ;
 }
 section#home{
     background-image: url('../images/image2.png');
@@ -26,4 +29,7 @@ section#home{
 .fs-tagline{
     font-size: 4rem;
     font-weight: 800;
+}
+.gradient{
+    background: linear-gradient(90deg, #FF8444 0%, #EE641C 100%);
 }
