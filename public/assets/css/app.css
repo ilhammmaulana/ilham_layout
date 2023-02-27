@@ -1,35 +1,65 @@
-
 @font-face {
     font-family: 'Nunito';
     src: url('../fonts/nunito/Nunito-VariableFont_wght.ttf');
-  }
+}
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+html {
+    overflow-x: hidden;
+
+}
+
+body {
     background-color: #fafafa;
 }
-html *{
+
+html * {
     font-family: 'Nunito';
     font-weight: 600;
 }
 
-section#card-sec{
-    padding: 12rem 0 ;
+section#card-sec {
+    padding: 12rem 0;
 }
-section#home{
+
+section#home {
     background-image: url('../images/image2.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.fs-tagline{
+.fs-tagline {
     font-size: 4rem;
     font-weight: 800;
 }
-.gradient{
+
+.gradient {
     background: linear-gradient(90deg, #FF8444 0%, #EE641C 100%);
+}
+
+.btn.btn-theme {
+    background: #F97330;
+    border-radius: 15px;
+    padding: .7rem 1.4rem;
+}
+
+.btn.btn-theme-sm {
+    background: #F97330;
+    border-radius: 15px;
+    padding: .4rem 1.5rem;
+}
+
+.btn.btn-theme-outline {
+    color: #F97330;
+    padding: .7rem 1.2rem;
+    background-color: #FEF1EA;
+}
+
+.text-theme {
+    color: #F97330;
 }

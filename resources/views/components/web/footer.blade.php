@@ -1,9 +1,10 @@
-<footer class="container-sm pt-5">
+<footer class="container-sm pt-5 mt-5">
     <div class="row justify-content-center">
         <div class="col-md-4">
-            <h2 class="fw-bold">Helix</h2>
+            <img src={{ asset('assets/images/Logo.png') }} height="38" class="mb-3" alt="">
             <p class="text-muted">
-                Untuk memenuhi permintaan yang meningkat akan layanan kesehatan yang berkualitas, Helix hadir lebih dekat dengan anda
+                Untuk memenuhi permintaan yang meningkat akan layanan kesehatan yang berkualitas, Helix hadir lebih
+                dekat dengan anda
             </p>
             <p>Ilham Maulana</p>
         </div>
